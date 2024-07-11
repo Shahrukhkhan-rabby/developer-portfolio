@@ -5,15 +5,12 @@ body{
 .orange{
     color: #EE6D21;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
     width: 75%;
     padding: 10%
-    .half-width img{
-        width: 10%;
-
     }
 }
 .link-button{
@@ -26,4 +23,35 @@ section{
 }
 .top-banner{
     background-image: url();
+}
+.dream-big{
+    background-image: url();
+    background: no-repeat;
+    background-position: right;
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px gray;
+}
+.ecperiance-area{
+    background-image: url();
+    background: no-repeat;
+    background-position: left;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
